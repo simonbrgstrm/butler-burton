@@ -13,7 +13,7 @@ import (
 	"github.com/PatrikOlin/butler-burton/xlsx"
 )
 
-func Checkin(opts util.Options) error {
+func Checkin(msg string, opts util.Options) error {
 	d := (15 * time.Minute)
 	rounded := time.Now().Local().Round(d)
 	checkinUnix := time.Now().Unix()
@@ -28,7 +28,7 @@ func Checkin(opts util.Options) error {
 	if opts.Loud {
 		util.SendTeamsMessage(
 			fmt.Sprintf("%s checkar in", cfg.Cfg.Name),
-			"Incheckad från "+string(de),
+			"Incheckad från "+msg+" "+string(de),
 			cfg.Cfg.Color, cfg.Cfg.WebhookURL)
 	}
 
