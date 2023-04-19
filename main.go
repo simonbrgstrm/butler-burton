@@ -75,7 +75,7 @@ func main() {
 					if opts.Vab {
 						return cmd.VabCheckin(opts)
 					}
-					return cmd.Checkin(opts)
+					return cmd.Checkin(c.Args().Get(0), opts)
 				},
 			},
 			{
