@@ -70,8 +70,6 @@ After this step make sure you are on BL-VPN or in any of the offices.
 `cd butler-burton`
 
 `make install`
- 
-`make build`
 
 If no binary file is created when running make install, download the binary file from the release page into the Downloads folder and change the name of the file to bb
 [Release Page](https://github.com/simonbrgstrm/butler-burton/releases)
