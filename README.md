@@ -6,7 +6,22 @@ Clone the repo and install. <br>
 git clone https://github.com/simonbrgstrm/butler-burton
 cd butler-burton
 make install
-make build
+```
+
+Add golang bin to $PATH in your `.bashrc` or `.zshrc` file
+```sh
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+```
+
+Test run with
+```sh
+butler-burton -v
+```
+
+Protip, set an alias in your `.bashrc` or `.zshrc` file.
+```sh
+alias bb="butler-burton"
 ```
 
 <details>
