@@ -1,3 +1,22 @@
+<h2 align="center"> butler-burton </h2>
+
+<div align="center">
+   <p></p>
+   <a href="">
+      <img src="https://img.shields.io/github/last-commit/simonbrgstrm/butler-burton?color=ff&labelColor=1C2325&style=for-the-badge">
+   </a>
+   <a href="https://github.com/simonbrgstrm/butler-burton/releases">
+      <img src="https://img.shields.io/github/v/release/simonbrgstrm/butler-burton?color=cc9246&labelColor=1C2325&style=for-the-badge">
+   </a>
+   <a href="https://github.com/simonbrgstrm/butler-burton/">
+      <img src="https://img.shields.io/github/go-mod/go-version/simonbrgstrm/butler-burton?labelColor=1C2325&style=for-the-badge">
+   </a>
+   
+   <br>
+</div>
+
+<h2></h2>
+
 ## Installation
 
 Clone the repo and install. <br>
